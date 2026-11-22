@@ -1,0 +1,106 @@
+body {
+    background: lightseagreen;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: right;
+    gap: 24px;
+    list-style: none;
+}
+
+.contact,
+.about {
+    margin: 0;
+}
+
+.Side-bar {
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.Side-bar,
+h1 {
+
+    margin: 10px;
+
+
+}
+
+.expense-summary {
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.Balance-card {
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.income-card {
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.Transaction-form {
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.card-container {
+
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Cards {
+
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 10px;
+
+
+}
+
+.Transaction-History {
+    width: fit-content;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.Dashboard {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 20px;
+}

@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>expense tracker</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+
+    <div class="Header">
+        <h1 class="logo">Expense tracker</h1>
+        <ul class="nav-items">
+            <li>
+                <h3 class="contact">contact</h3>
+            </li>
+            <li>
+                <h3 class="about">about us</h3>
+            </li>
+        </ul>
+    </div>
+    <div class="Dashboard">
+        <div class="Side-bar">
+            <h3>daily expenses</h3>
+            <h3>total expenses</h3>
+            <h3>calculate expenses</h3>
+            <h3>income </h3>
+
+        </div>
+        <section class="Cards">
+            <div class="card-container">
+                <div class="summary">
+                    <section class="expense-summary">
+                        <h3>expense summary</h3>
+                    </section>
+                    <section class="Balance-card">
+                        <h3>total balance</h3>
+                        <h3>total balance graph</h3>
+                    </section>
+                    <section class="income-card">
+                        <h3>total income</h3>
+                    </section>
+                </div>
+                <section class="Transaction-form">
+                    <form>
+                        Name:<input type="text" placeholder="enter your name"> <br>
+                        description:<input type="text" placeholder="enter the transaction description "><br>
+                        transfered amount:<input type="number" placeholder="ex: 1000"><br>
+                        income: <input type="radio" value="income">
+                        expense:<input type="radio" value="income"><br>
+                        <select class="selector">
+                            <option value="food">food</option>
+                            <option value="shopping">shopping</option>
+                            <option>Transport</option>
+                            <option>Bills</option>
+                            <option>Entertainment</option>
+                        </select><br>
+                        <input type="submit" value="transfer">
+                    </form>
+                </section>
+                <section class="Transaction-History">
+                    <h3>
+                        <input type="button" value="history">
+                    </h3>
+
+                    <input type="button" value="delete transaction">
+                </section>
+            </div>
+        </section>
+        <script src="./index.js"></script>
+    </div>
+</body>
+
+</html>
