@@ -34,3 +34,4 @@ const total = transactions.reduce((sum, current) => {
     return sum;
 }, 0);
 console.log(total);
+console.log(total + 25);
